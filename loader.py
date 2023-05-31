@@ -15,3 +15,6 @@ class Loader():
         
     def save_csv(self, path:str):
         self.data.to_csv(path)
+        
+    def save_xml(self, path:str):
+        self.data.to_xml(path)
