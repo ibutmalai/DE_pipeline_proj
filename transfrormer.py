@@ -8,9 +8,12 @@ class Transformer():
 #aici putem defini mai multe tipuri de transformari
     def cleanNulls(self, data):
         pass
-    ``
+    
     def aggregateSum(self, data):
         pass
     
     def aggregateaverage(self, data):
+        pass
+    
+    def trimStrings(self, data):
         pass
