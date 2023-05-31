@@ -12,3 +12,6 @@ class Loader():
     
     def save_html(self, path:str):
         self.data.to_html(path)
+        
+    def save_csv(self, path:str):
+        self.data.to_csv(path)
