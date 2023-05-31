@@ -8,7 +8,7 @@ class Loader():
         self.data.to_csv(path, index=False)
     
     def save_json(self, path:str):
-        pass
+        self.data.to_json(path)
     
     def save_excel(self, path:str):
         pass
